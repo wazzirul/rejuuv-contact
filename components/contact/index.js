@@ -16,6 +16,7 @@ function Contact() {
               <h1 className="hero__title">Have a question?</h1>
               <p className="hero__subtitle">Search our library of support articles or live chat with us to get immediate help.</p>
               <form className="hero__form" action="#">
+                <img src={'/assets/images/contact-hero-form-icon-right.svg'} alt='' className="hero__form-icon" width={46} height={50} />
                 <input className="hero__form-input" type="text" name="search" id="search" placeholder="Search support articles and more" required />
                 <button type="submit" className="hero__form-button">
                   <img src={'/assets/images/magnifying-glass.svg'} alt='Find' width={24} height={24} className="hero__form-button-icon" />

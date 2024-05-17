@@ -317,6 +317,14 @@ body{
       position: relative;
       width: 100%;
       max-width: toRem(696);
+      .hero__form-icon{
+        position: absolute;
+        top: toRem(-38);
+        left: toRem(-48);
+        width: toRem(46);
+        height: toRem(50);
+        aspect-ratio: 46 / 50;
+      }
       .hero__form-input{
         position: relative;
         width: 100%;
