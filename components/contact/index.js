@@ -8,6 +8,9 @@ function Contact() {
         <Navbar />
         <section className="hero">
           <div className="hero__background">
+            <img src={'/assets/images/contact-hero-icon-star.svg'} alt='Hero Star Left' className="hero__star-left" width={35} height={38} />
+            <img src={'/assets/images/contact-hero-icon-star.svg'} alt='Hero Star Right' className="hero__star-right" width={20} height={21} />
+            <img src={'/assets/images/hero-question-mark.png'} alt='Hero Question Mark' className="hero__question-mark-right" width={170} height={177} />
             <img src={'/assets/images/contact-hero-pattern-left.png'} alt='Hero Background Left' className="hero__background-left" width={644} height={698} />
             <img src={'/assets/images/contact-hero-pattern-right.png'} alt='Hero Background Right' className="hero__background-right" width={696} height={673} />
           </div>
