@@ -30,37 +30,39 @@ function Contact() {
         </section>
         <section className="cta">
           <div className="container container-cta">
-            <div className="cta-card">
-              <img src={'/assets/images/cta-client.png'} alt='Find' width={212} height={212} className="cta-card__icon" />
-              <div className="cta-card__content">
-                <h4 className="cta-card__title">Clients</h4>
-                <p className="cta-card__description">Need help booking a massage? We&apos;re here for you! Live Chat with our support team or check out our FAQ articles to get the answers you need.</p>
+            <div className="cta-groups">
+              <div className="cta-card">
+                <img src={'/assets/images/cta-client.png'} alt='Find' width={212} height={212} className="cta-card__icon" />
+                <div className="cta-card__content">
+                  <h4 className="cta-card__title">Clients</h4>
+                  <p className="cta-card__description">Need help booking a massage? We&apos;re here for you! Live Chat with our support team or check out our FAQ articles to get the answers you need.</p>
+                </div>
+                <div className="cta-card__button">
+                  <button type="button" className="btn btn-primary">Live Chat</button>
+                  <a href="#" className="btn btn-outline-primary">FAQ Articles</a>
+                </div>
               </div>
-              <div className="cta-card__button">
-                <button type="button" className="btn btn-primary">Live Chat</button>
-                <a href="#" className="btn btn-outline-primary">FAQ Articles</a>
+              <div className="cta-card">
+                <img src={'/assets/images/cta-provider.png'} alt='Find' width={212} height={212} className="cta-card__icon" />
+                <div className="cta-card__content">
+                  <h4 className="cta-card__title">Provider</h4>
+                  <p className="cta-card__description">We&apos;re dedicated to helping your massage business thrive. Live Chat with us for guidance on everything from setting up your profile to attracting new clients.</p>
+                </div>
+                <div className="cta-card__button">
+                  <button type="button" className="btn btn-primary">Live Chat</button>
+                  <a href="#" className="btn btn-outline-primary">FAQ Articles</a>
+                </div>
               </div>
-            </div>
-            <div className="cta-card">
-              <img src={'/assets/images/cta-provider.png'} alt='Find' width={212} height={212} className="cta-card__icon" />
-              <div className="cta-card__content">
-                <h4 className="cta-card__title">Provider</h4>
-                <p className="cta-card__description">We&apos;re dedicated to helping your massage business thrive. Live Chat with us for guidance on everything from setting up your profile to attracting new clients.</p>
-              </div>
-              <div className="cta-card__button">
-                <button type="button" className="btn btn-primary">Live Chat</button>
-                <a href="#" className="btn btn-outline-primary">FAQ Articles</a>
-              </div>
-            </div>
-            <div className="cta-card">
-              <img src={'/assets/images/cta-professional.png'} alt='Find' width={212} height={212} className="cta-card__icon" />
-              <div className="cta-card__content">
-                <h4 className="cta-card__title">Professionals</h4>
-                <p className="cta-card__description">Don&apos;t go it alone in your job search. Live Chat with our team or explore our support articles to get the guidance you need to succeed.</p>
-              </div>
-              <div className="cta-card__button">
-                <button type="button" className="btn btn-primary">Live Chat</button>
-                <a href="#" className="btn btn-outline-primary">FAQ Articles</a>
+              <div className="cta-card">
+                <img src={'/assets/images/cta-professional.png'} alt='Find' width={212} height={212} className="cta-card__icon" />
+                <div className="cta-card__content">
+                  <h4 className="cta-card__title">Professionals</h4>
+                  <p className="cta-card__description">Don&apos;t go it alone in your job search. Live Chat with our team or explore our support articles to get the guidance you need to succeed.</p>
+                </div>
+                <div className="cta-card__button">
+                  <button type="button" className="btn btn-primary">Live Chat</button>
+                  <a href="#" className="btn btn-outline-primary">FAQ Articles</a>
+                </div>
               </div>
             </div>
           </div>
