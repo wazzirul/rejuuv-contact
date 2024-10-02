@@ -609,7 +609,7 @@ body{
       align-items: center;
       justify-content: flex-start;
       gap: toRem(32);
-      border-radius: toRem(4);
+      border-radius: toRem(8);
       border: 1px solid $border;
       background: $white;
       box-shadow: toRem(0) toRem(4) toRem(30) toRem(0) rgba($black, 0.10);
